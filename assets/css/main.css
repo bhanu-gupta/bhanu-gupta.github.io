@@ -2388,20 +2388,22 @@ input, select, textarea {
 			width: 33%;
 		}
 
-			ul.feature-icons li:before {
+			ul.feature-icons li span {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
 				font-style: normal;
 				font-variant: normal;
 				text-rendering: auto;
-				line-height: 1;
+				line-height: 1.75em;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
-				font-weight: 400;
+				font-family: "Lato", sans-serif;
+				font-weight: 600;
+				color: #888;
+				font-size: 18px;
 			}
 
-			ul.feature-icons li:before {
+			ul.feature-icons li:before, ul.feature-icons li i {
 				background: #4acaa8;
 				border-radius: 100%;
 				color: #ffffff;
@@ -3314,3 +3316,7 @@ input, select, textarea {
 			}
 
 	}
+
+	header.major p.minor {
+					font-size: 22px;
+				}
