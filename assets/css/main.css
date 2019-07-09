@@ -3320,3 +3320,21 @@ input, select, textarea {
 	header.major p.minor {
 					font-size: 22px;
 				}
+
+		h5 a {
+			color: #4acaa8;
+		}
+
+		h5 a:hover {
+			text-decoration: underline;
+		}
+
+		#five .icons {
+			margin: 0;
+		}
+
+		#five {
+			text-align: center;
+			padding: 10px 0;
+			font-size: 30px;
+		}
